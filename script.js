@@ -1,17 +1,17 @@
-const rootPath = document.body.dataset.root || "../..";
+const rootPath = document.body.dataset.root || ".";
 const currentPage = document.body.dataset.page || "home";
 
 const navigation = [
-  ["home", "Início", `${rootPath}/codigo/home/home.html`],
-  ["sobre", "Sobre o projeto", `${rootPath}/codigo/sobre/sobre.html`],
-  ["informacoes", "Como doar", `${rootPath}/codigo/informacoes/informacoes.html`],
-  ["contato", "Contato", `${rootPath}/codigo/contato/contato.html`]
+  ["home", "Início", "/"],
+  ["sobre", "Sobre o projeto", "/sobre"],
+  ["como-doar", "Como doar", "/como-doar"],
+  ["contato", "Contato", "/contato"]
 ];
 
 const header = `
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="${rootPath}/codigo/home/home.html" aria-label="Doe+ - página inicial">
+      <a class="brand" href="/" aria-label="Doe+ - página inicial">
         <img src="${rootPath}/assets/logo.png" alt="Doe+">
       </a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
@@ -27,13 +27,13 @@ const footer = `
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <a class="footer-brand" href="${rootPath}/codigo/home/home.html">Doe<span>+</span></a>
+        <a class="footer-brand" href="/">Doe<span>+</span></a>
         <p>Portal informativo sobre doação de sangue e encaminhamento para hemocentros oficiais.</p>
       </div>
       <div class="footer-links">
-        <a href="${rootPath}/codigo/informacoes/informacoes.html">Como doar</a>
-        <a href="${rootPath}/codigo/sobre/sobre.html">Sobre o projeto</a>
-        <a href="${rootPath}/codigo/contato/contato.html">Contato</a>
+        <a href="/como-doar">Como doar</a>
+        <a href="/sobre">Sobre o projeto</a>
+        <a href="/contato">Contato</a>
         <a href="https://www.hemominas.mg.gov.br/" target="_blank" rel="noopener">Hemominas ↗</a>
         <a href="https://www.gov.br/saude/pt-br/composicao/saes/doacao-de-sangue/faq" target="_blank" rel="noopener">Ministério da Saúde ↗</a>
       </div>
