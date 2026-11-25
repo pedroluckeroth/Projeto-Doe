@@ -1,37 +1,30 @@
 # Doe+
 
-Projeto informativo sobre doação de sangue. A proposta é apresentar orientações introdutórias, incentivar a doação voluntária e direcionar visitantes a fontes oficiais e aos serviços de hemoterapia.
+Portal informativo sobre doação de sangue com encaminhamento direto para os hemocentros oficiais.
 
 ## Como executar
 
 1. Extraia o projeto mantendo a estrutura de pastas.
-2. Abra a pasta `Projeto-Doe-master` no VS Code.
-3. Execute `index.html` com a extensão Live Server ou abra o arquivo diretamente no navegador.
-4. A página inicial também está em `codigo/home/home.html`.
+2. Abra a pasta do projeto no VS Code.
+3. Execute `index.html` com a extensão Live Server ou abra diretamente no navegador (`codigo/home/home.html`).
 
-Não é necessário instalar dependências ou executar comandos de build. O projeto utiliza HTML, CSS e JavaScript puros.
+## Propósito
 
-## Estrutura
+O Doe+ é um projeto estritamente informativo desenvolvido originalmente no contexto acadêmico de TIAW (Trabalho Interdisciplinar: Aplicações Web) e refinado para apresentar orientações claras sobre doação de sangue e encaminhar visitantes diretamente aos portais oficiais dos hemocentros.
 
-- `index.html`: entrada do site.
-- `style.css`: estilos compartilhados e responsivos.
-- `script.js`: navegação compartilhada e comportamentos simples de interface.
-- `codigo/home`: página inicial.
-- `codigo/informacoes`: orientações para quem deseja doar.
-- `codigo/sobre`: apresentação do projeto e da equipe.
-- `codigo/contato`: formulário demonstrativo de contato.
-- `codigo/cadastro`: orientação para encontrar um hemocentro.
-- `codigo/login`: aviso sobre a ausência de autenticação.
-- `assets`: imagens utilizadas pelo site.
-- `docs`: documentação acadêmica original.
+## Autor
 
-## Funcionalidades
+- Pedro Henrique Gomes Lückeroth
 
-- Navegação consistente entre as páginas.
-- Menu adaptado para dispositivos móveis.
-- Conteúdo informativo e perguntas frequentes expansíveis.
-- Atalho para pesquisar hemocentros próximos no Google Maps.
-- Formulário de contato com validação nativa do navegador.
+## Professores responsáveis
+
+* João Caram
+* Romell
+
+## Quadro de tarefas
+[Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.]
+(https://miro.com/app/board/uXjVMdb7XEo=/#tpicker-content)
+(https://www.figma.com/file/kU9DbSjE6cCz8BiARwbTfc/Untitled?node-id=0-1&t=6KbFmlh1Boo6o0r6-0)
 
 ## Limitações importantes
 
@@ -41,14 +34,6 @@ O Doe+ é um projeto educativo, não um serviço de saúde. Os critérios de doa
 
 ## Fontes de informação
 
-- [Ministério da Saúde — requisitos para doação](https://www.gov.br/saude/pt-br/composicao/saes/doacao-de-sangue/faq/quais-os-requisitos-para-doacao)
-- [Ministério da Saúde — perguntas frequentes sobre sangue](https://www.gov.br/saude/pt-br/composicao/saes/doacao-de-sangue/faq)
-- [Ministério da Saúde — doação de sangue](https://www.gov.br/saude/pt-br/composicao/saes/doacao-de-sangue/doacao-de-sangue)
-
-## Equipe original
-
-- Pedro Henrique Gomes Lückeroth
-- Jader Lima Dias
-- Pedro Goulart Mourthe Marques
-- Arthur Machado Ferreira
-- João Victor Coelho Martins
+Ministério da Saúde — requisitos para doação
+Ministério da Saúde — perguntas frequentes sobre sangue
+Ministério da Saúde — doação de sangue
