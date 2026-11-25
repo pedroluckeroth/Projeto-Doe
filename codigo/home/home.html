@@ -1,96 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Doe+</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Doe+: informação confiável para quem quer doar sangue. Saiba como se preparar e encontre um hemocentro.">
+  <title>Doe+ | Uma atitude que salva vidas</title>
+  <link rel="stylesheet" href="../../style.css">
+  <script src="../../script.js" defer></script>
 </head>
-
-<body>
-    <header class="content">
-        <div class="logo">
-            <a href="../home/home.html">
-                <img src="/assets/logo.png" alt="Logo Doe+">
-            </a>
+<body data-root="../.." data-page="home">
+  <div id="site-header"></div>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">❤️ Doe sangue. Compartilhe vida.</span>
+          <h1>Uma pequena atitude pode fazer <em>uma grande diferença.</em></h1>
+          <p>Informação clara para você entender a doação de sangue, se preparar com tranquilidade e encontrar o serviço de hemoterapia mais próximo.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="../informacoes/informacoes.html">Quero saber como doar →</a>
+            <a class="btn btn-secondary" href="https://www.google.com/maps/search/hemocentro+perto+de+mim/" target="_blank" rel="noopener">Encontrar hemocentro ↗</a>
+          </div>
         </div>
-        <nav>
-            <ul class="list-menu">
-                <li><a href="../home/home.html">Home</a></li>
-                <li><a href="../sobre/sobre.html">Sobre</a></li>
-                <li><a href="../contato/contato.html">Contato</a></li>
-                <li><a href="../cadastro/cadastro.html">Cadastro</a></li>
-                <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
-                <li><a href="../login/login.html"><i class="bi bi-person"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="graficos-sangue">
-        <img src="/assets/EstoqueSangue.png" alt="Estoque Sangue">
-        <img src="/assets/EstadoSangue.png" alt="Estado Sangue">
-        <div class="caledar">
-            <img src="/assets/Agende.png">
-            <h1>Agende sua doação</h1>
-            <p>Acesse o link abaixo e agende sua doação</p>
-            <a href="#">Agendamento <i class="bi bi-calendar-check"></i></i></a>
+        <div class="hero-art">
+          <img src="../../assets/gotassangue.png" alt="Ilustração de uma gota de sangue">
+          <div class="hero-note"><strong>Doe+</strong> Solidariedade em movimento</div>
         </div>
-        <div class="maps">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12616.97698996453!2d-43.92834897677821!3d-19.922310297534793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shemocentro!5e0!3m2!1spt-BR!2sbr!4v1681388314878!5m2!1spt-BR!2sbr"
-                height="211" width="273" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+      </div>
     </section>
 
-    <section class="cards">
-        <div class="redCards">
-            <img src="/assets/tattoobraco.png">
-            <div class="cardText">
-                <h1>Tatuagem e Doação de Sangue</h1>
-                <p>Prazo para tatuados doarem sangue agora é de 6 meses. As medidas visam garantir que o sangue doado
-                    não esteja contaminado por ...</p>
-                <a href="#">Matéria Completa <i class="bi bi-window"></i></a>
-            </div>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Por que doar?</span>
+          <h2>O sangue não pode ser fabricado. A doação faz a diferença.</h2>
+          <p>Os hemocomponentes são necessários em cirurgias, atendimentos de urgência e tratamentos contínuos. Manter os estoques abastecidos depende de doações voluntárias.</p>
         </div>
-        <div class="redCards">
-            <img src="/assets/remedeos.png" id="">
-            <div class="cardText">
-                <h1>É Contraindicada A Suspensão De Medicamentos Para A Realização De Doação De Sangue. Atenção: O Uso
-                    De Medicamentos Injetáveis Sem Prescrição Médica Impede A Doação Por 3 Meses, Exceto Se O Tempo Da
-                    Inaptidão Do Medicamento For Maior.</h1>
-                <p> O uso de analgésicos (medicamentos para tirar a dor) comuns não impede a doação; entretanto, o
-                    triagista avaliará o sintoma e/ou sinal que motivaram a sua utilização, o que poderá, por si,
-                    impedir a doação. Assim, sugere-se que se faça a doação em dias em que não se utilizar
-                    medicamentos...</p>
-                <a href="#">Matéria Completa <i class="bi bi-window"></i></a>
-            </div>
+        <div class="stats">
+          <article class="stat"><strong>16 a 69 anos</strong><span>Faixa etária geral, com condições específicas para primeira doação e menores de idade.</span></article>
+          <article class="stat"><strong>50 kg</strong><span>Peso mínimo indicado nos critérios básicos nacionais.</span></article>
+          <article class="stat"><strong>Não vá em jejum</strong><span>Esteja alimentado e hidratado; evite refeições gordurosas antes da doação.</span></article>
         </div>
-        <img src="/assets/comjovem.png">
-        <div class="redCards"><img src="/assets/gotassangue.png">
-            <div class="cardText">
-                <h1>Forma eficaz de descobrir seu tipo sanguíneo</h1>
-                <p> Saber o próprio tipo sanguíneo é muito importante, principalmente em casos de emergências médicas, e
-                    existem
-                    diversas maneiras de descobrir essa informação. Então, se você já se perguntou: “como saber meu tipo
-                    sanguíneo?”, este texto vai tirar todas as suas dúvidas.</p>
-                <a href="#">Matéria Completa <i class="bi bi-window"></i></a>
-            </div>
-        </div>
-        <img src="/assets/junho vermelho.png">
-        <img src="/assets/comjovem.png">
-
+        <p class="disclaimer mt-24">Os critérios são gerais e não substituem a avaliação individual feita pela equipe do hemocentro. <a class="text-link" href="https://www.gov.br/saude/pt-br/composicao/saes/doacao-de-sangue/faq/quais-os-requisitos-para-doacao" target="_blank" rel="noopener">Consulte a orientação oficial ↗</a></p>
+      </div>
     </section>
 
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">Comece por aqui</span>
+          <h2>Doar é mais simples quando você sabe o que esperar.</h2>
+          <p>Conheça as etapas e tire suas dúvidas antes de procurar um hemocentro.</p>
+        </div>
+        <div class="steps">
+          <article class="step"><h3>Informe-se</h3><p>Confira os requisitos básicos e as orientações do serviço onde pretende doar.</p></article>
+          <article class="step"><h3>Prepare-se</h3><p>Alimente-se, hidrate-se, descanse e leve um documento oficial com foto.</p></article>
+          <article class="step"><h3>Faça a triagem</h3><p>A equipe de saúde conversa com você e avalia se a doação pode ser realizada com segurança.</p></article>
+          <article class="step"><h3>Doe e cuide-se</h3><p>Siga as orientações após a coleta e respeite o intervalo indicado para uma nova doação.</p></article>
+        </div>
+        <div class="center mt-24"><a class="btn btn-primary" href="../informacoes/informacoes.html">Ver orientações completas</a></div>
+      </div>
+    </section>
 
-    <footer>
-        <h4>Desenvolvido por -> Grupo Doe+</h4>
-    </footer>
-
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Informação responsável</span>
+          <h2>Algumas dúvidas comuns</h2>
+          <p>Uma resposta geral ajuda a começar, mas cada situação deve ser confirmada com o hemocentro.</p>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item"><summary class="faq-question">Posso doar sangue tomando medicamentos? <span>＋</span></summary><div class="faq-answer">Depende do medicamento, da dose e do motivo do tratamento. Não interrompa nenhum remédio por conta própria. Informe tudo à equipe durante a triagem.</div></details>
+          <details class="faq-item"><summary class="faq-question">Quem tem tatuagem pode doar? <span>＋</span></summary><div class="faq-answer">Em muitos casos, sim, após um período de espera. O prazo pode variar conforme as condições do procedimento e a avaliação do serviço. Confirme diretamente com o hemocentro.</div></details>
+          <details class="faq-item"><summary class="faq-question">Preciso estar em jejum? <span>＋</span></summary><div class="faq-answer">Não. A orientação geral é estar bem alimentado e hidratado. Evite alimentos gordurosos nas horas que antecedem a doação.</div></details>
+        </div>
+        <div class="center mt-24"><a class="btn btn-secondary" href="../informacoes/informacoes.html#duvidas">Mais perguntas e respostas</a></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
 </body>
-
 </html>

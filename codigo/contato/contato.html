@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-        <section>
-            <a href="../home/home.html">
-                <img src="/assets/logo.png" alt="Logo Doe+">
-            </a>
-            <h2>Contato</h2>
-            <form action="">
-                <label>Nome</label>
-                <input type="text" name="nome" placeholder="Digite o seu nome">   
-                <label>Email</label>
-                <input type="text" name="Email" placeholder="Digite o seu email">      
-                <label>Comentários</label>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Escreva seu comentário aqui"></textarea>
-                <button type="submit">Enviar</button>  
-            </form>
-        </section>
-</body>
-</html>
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Entre em contato com o projeto Doe+."><title>Contato | Doe+</title><link rel="stylesheet" href="../../style.css"><script src="../../script.js" defer></script></head>
+<body data-root="../.." data-page="contato">
+<div id="site-header"></div>
+<main>
+  <section class="page-hero"><div class="container"><span class="eyebrow">Vamos conversar</span><h1>Fale com o Doe+</h1><p>Envie uma dúvida, sugestão ou comentário sobre o projeto.</p></div></section>
+  <section class="section"><div class="container form-layout">
+    <aside class="content-card"><div class="card-icon">✉</div><h2>Como podemos ajudar?</h2><p>O Doe+ é um projeto informativo e não realiza coleta de sangue, triagem clínica ou agendamento de doações.</p><p>Para dúvidas sobre sua aptidão, prazos ou agendamento, entre em contato diretamente com o hemocentro responsável.</p><a class="text-link" href="https://www.gov.br/saude/pt-br/composicao/saes/doacao-de-sangue/faq" target="_blank" rel="noopener">Consultar canais oficiais ↗</a></aside>
+    <form class="form-card" data-demo-form data-success="Formulário validado no navegador. O projeto ainda não possui servidor para enviar ou armazenar sua mensagem.">
+      <h2>Envie sua mensagem</h2><p>Preencha os campos abaixo.</p>
+      <div class="form-grid">
+        <div class="field"><label for="nome">Nome</label><input id="nome" name="nome" autocomplete="name" required maxlength="80"></div>
+        <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field full"><label for="assunto">Assunto</label><select id="assunto" name="assunto" required><option value="">Selecione</option><option>Dúvida sobre o projeto</option><option>Sugestão</option><option>Correção de informação</option><option>Outro assunto</option></select></div>
+        <div class="field full"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" required maxlength="1200"></textarea></div>
+        <div class="field full"><button class="btn btn-primary" type="submit">Validar mensagem →</button><span class="form-help">Não informe dados médicos ou informações pessoais sensíveis neste formulário demonstrativo.</span></div>
+      </div>
+      <div class="form-message" role="status" aria-live="polite"></div>
+    </form>
+  </div></section>
+</main>
+<div id="site-footer"></div>
+</body></html>
